@@ -3,7 +3,7 @@ Simple App to show add/remove Suppliers and their addresses. It uses Zend2, Comp
 Please follow below steps for setup.
 
 Add virtual host as below, of course change drive letter or directory accordingly. 
-
+```
 <VirtualHost *:80>
 	DocumentRoot /data/www/AngularJSZend2Example/public
 	ServerName AngularJSZend2Example
@@ -16,7 +16,7 @@ Add virtual host as below, of course change drive letter or directory accordingl
 		Require all granted
 	</Directory>
 </VirtualHost>
-
+```
 
 Also make sure, your ServerName is AngularJSZend2Example as that is hardcorded in public\app\js\controllers.js, if you are using some other name please change there as well.
 
